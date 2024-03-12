@@ -5,5 +5,5 @@ target/
 
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 allure-results/
