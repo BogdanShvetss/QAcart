@@ -31,6 +31,7 @@ public class RegisterPage {
     private By confirmPasswordInput = By.cssSelector("[data-testid='confirm-password']");
     private By submitButton = By.cssSelector("[data-testid='submit']");
 
+
     @Step("Register using API")
     public void registerUsingApi(WebDriver driver) {
         User user = new User();
